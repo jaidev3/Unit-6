@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="navbar"></div>
+    <div id="header"></div>
+    <div id="footer"></div>
     <!-- <h1>hello</h1> -->
+   
 </body>
+
 </html>
 
 <script type="module">
-import Navbar from "./components/Navbar.js"
-let navbar=document.getElementById("navbar");
-navbar.innerHTML = Navbar();
+    import Navbar from "./components/Navbar.js"
+    import Footer from "./components/Footer.js"
+    let navbar = document.getElementById("navbar");
+    navbar.innerHTML = Navbar();
+
+
+    let footer = document.getElementById("footer");
+    footer.innerHTML = Footer(); 
 </script>
