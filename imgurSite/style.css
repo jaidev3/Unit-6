@@ -9,18 +9,18 @@ body {
 }
 #footer {
   width: 100%;
-  background-color: #212121;
+  background-color: #424242;
   display: flex;
 }
 #footer ul {
-  background-color: #212121;
+  background-color: #424242;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: white;
   list-style-type: none;
-  position: fixed;
+  position: absolute;
   bottom: 4px;
   left: 0;
   right: 0;
