@@ -30,7 +30,7 @@ function Navbar() {
         <button class="dropbtn">
         <div class=down> 
       NEWEST
-          <img src="../images/drop-down-arrow.png" alt="" >
+          <img src="../images/Hydraulic.png" alt="drop" />
           </div> 
         </button>
         <div class="dropdown-content">
