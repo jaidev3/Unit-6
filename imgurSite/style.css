@@ -1,7 +1,66 @@
 body {
-  background-color: #757575;
-  color: green;
-  font-size: 17px;
+
+  background-image: url("./images/home.png");
+  background-repeat: no-repeat;
+}
+
+.fav {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.fav a:nth-child(1) {
+  background-image: url(./images/Hydraulic.png);
+  background-size: cover;
+  width: 250px;
+}
+.fav a:nth-child(2) {
+  background-image: url(./images/oddly.png);
+  background-size: cover;
+}
+.fav a:nth-child(3) {
+  background-image: url(./images/coeffe.png);
+  background-size: cover;
+}
+.fav a:nth-child(4) {
+  background-image: url(./images/staffpick.png);
+  background-size: cover;
+}
+.fav a:nth-child(5) {
+  background-image: url(./images/game.png);
+  background-size: cover;
+}
+.fav a:nth-child(6) {
+  background-image: url(./images/meme.png);
+  background-size: cover;
+}
+.fav a:nth-child(7) {
+  background-image: url(./images/cleandesk.png);
+  background-size: cover;
+}
+.fav a:nth-child(8) {
+  background-image: url(./images/frnny.png);
+  background-size: cover;
+}
+.fav a:nth-child(9) {
+  background-image: url(./images/aww.png);
+  background-size: cover;
+}
+.fav a:nth-child(10) {
+  background-image: url(./images/oc.jpg);
+  background-size: cover;
+}
+
+.head-content {
+  width: 100px;
+  height: 130px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 5px;
+
 }
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -38,4 +97,5 @@ body {
   font-weight: 600;
   justify-content: center;
   margin: 0%;
+
 }
