@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="container">
-      <div id="navbar"></div>
-      <div id="head">
-        <div></div>
-        <div class="fav">
-          <a class="head-content wid" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
-          <a class="head-content" href="#"></a>
+        <div id="navbar"></div>
+        <div id="head">
+            <div></div>
+            <div class="fav">
+                <a class="head-content wid" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+                <a class="head-content" href="#"></a>
+            </div>
         </div>
-      </div>
-      <div id="body"></div>
-      <div id="navbar"></div>
-      <div id="footer"></div>
+        <div id="body"></div>
+        <div id="navbar"></div>
+        <div id="footer"></div>
     </div>
-  </body>
+</body>
+
 </html>
 
 <script type="module">
-  import Navbar from "./components/Navbar.js";
-  let navbar = document.getElementById("navbar");
-  navbar.innerHTML = Navbar();
+    import Navbar from "./components/Navbar.js";
+    let navbar = document.getElementById("navbar");
+    navbar.innerHTML = Navbar();
+    import Footer from "./components/Footer.js";
+    let footer = document.getElementById("footer").innerHTML = Footer(); 
 </script>
 <script type="text/javascript" src="./script.js"></script>
