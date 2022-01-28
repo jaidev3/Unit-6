@@ -1,7 +1,7 @@
 function Navbar() {
   return `
     <div className="navbar">
-    <navbar> 
+    <nav> 
       <a href="#">
         <div>
         <img src="../images/favicon-32x32.png" alt="home" >
@@ -16,9 +16,9 @@ function Navbar() {
           </div> 
         </button>
         <div class="dropdown-content">
-          <a href="#"> <h1>MOST VIRAL </h1> </a>
-          <a href="#">  <h1>USER SUBMITTED </h1>  </a>
-          <a href="#">   <h1>   HIGHEST SCORING </h1></a>
+          <a href="#"> <h4>MOST VIRAL </h4> </a>
+          <a href="#">  <h4>USER SUBMITTED </h4>  </a>
+          <a href="#">   <h4>   HIGHEST SCORING </h4></a>
         </div>
       </div>
      
@@ -34,10 +34,10 @@ function Navbar() {
           </div> 
         </button>
         <div class="dropdown-content">
-          <a href="#"> <h1>POPULAR </h1> </a>
-          <a href="#">  <h1>NEWEST </h1>  </a>
-          <a href="#">   <h1> BEST </h1></a>
-          <a href="#">   <h1> RANDOM </h1></a>
+          <a href="#"> <h3>POPULAR </h3> </a>
+          <a href="#">  <h3>NEWEST </h3>  </a>
+          <a href="#">   <h3> BEST </h3></a>
+          <a href="#">   <h3> RANDOM </h3></a>
 
         </div>
       </div>
@@ -51,9 +51,9 @@ function Navbar() {
        <img src="../images/content-creator.png" alt=" waterfall" >
       </a>
       <a href="#">
-        <h1>Signup</h1>
+        <h5>Signup</h5>
       </a>
-      </navbar> 
+      </nav> 
     </div>
     `;
 }

@@ -6,7 +6,7 @@ body {
 .fav {
   display: flex;
   gap: 10px;
-  margin: auto;
+  margin-top: 8%;
   align-content: center;
   justify-content: center;
 }
@@ -77,7 +77,7 @@ body {
   justify-content: space-between;
   color: white;
   list-style-type: none;
-  position: absolute;
+  position: fixed;
   bottom: 4px;
   left: 0;
   right: 0;
@@ -108,7 +108,7 @@ body {
   display: flex;
   color: orangered;
 }
-#navbar navbar {
+#navbar nav {
   background-color: #424242;
   width: 100%;
   display: flex;
@@ -116,14 +116,14 @@ body {
   justify-content: space-between;
   color: white;
   list-style-type: none;
-  position: absolute;
+  position: fixed;
   top: 1px;
   left: 0;
   right: 0;
   margin: 0%;
 }
 
-#navbar a {
+#navbar nav a {
   padding: 1%;
   text-decoration: none;
   cursor: pointer;
@@ -158,7 +158,7 @@ body {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 6px 8px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -171,7 +171,7 @@ body {
 }
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  padding: 1%;
+  padding: 0.4%;
   display: none;
   position: absolute;
   background-color: #757575;
@@ -182,23 +182,43 @@ body {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  padding: 5%;
+  padding: 0.4%;
   float: none;
   color: black;
   /* padding: 12px 16px; */
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
-  padding: 2%;
+  padding: 0.4%;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  padding: 1%;
+  padding: 0.4%;
+}
+
+/* //////// Product  */
+#body {
+  margin-top: 6%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  grid-gap: 1%;
+  justify-content: space-around;
+}
+#body div {
+  width: 100%;
+  height: 90%;
+  border-radius: 55px;
+}
+
+#body img {
+  width: 100%;
+  height: 65%;
 }
