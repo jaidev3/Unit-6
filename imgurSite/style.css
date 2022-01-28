@@ -1,6 +1,7 @@
 body {
   background-image: url("./images/home.png");
   background-repeat: no-repeat;
+  background-color:#424242;
 }
 p {
   padding: 0;
