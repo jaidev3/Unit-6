@@ -1,6 +1,7 @@
 body {
   background-image: url("./images/home.png");
   background-repeat: no-repeat;
+  background-color: #424242;
 }
 p {
   padding: 0;
@@ -228,7 +229,8 @@ p {
   margin-top: 6%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 22%);
+  grid-template-columns: repeat(5, 16%);
+  padding: 60px;
   grid-gap: 1%;
   justify-content: space-around;
 }
