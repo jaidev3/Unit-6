@@ -125,12 +125,14 @@ p {
   left: 0px;
   right: 0px; */
   width: 100%;
-  background-color: #424242;
+  /* background-color: #424242; */
   display: flex;
   color: orangered;
+  background-image: url(./images/home.png);
 }
 #navbar nav {
-  background-color: #424242;
+  /* background-color: #424242; */
+  background-image: url(./images/home.png);
   width: 100%;
   display: flex;
   flex-direction: row;
