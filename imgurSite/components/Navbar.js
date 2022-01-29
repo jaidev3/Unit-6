@@ -23,9 +23,11 @@ function Navbar() {
       </div>
      
   <div class= "search">  
-        <input   type="search" placeholder="Images,#tags,@user Oh my!"  /> 
+        <input  oninput="debounce(main,1000)" class="in" id="in" type="search" placeholder="Images,#tags,@user Oh my!"  /> 
+        
         <img src="../images/icons8-search-32.png" alt" " />
       </div>
+      <div class="search-items" id="search-items"></div>
        <div class="dropdown">
         <button class="dropbtn">
         <div class=down> 

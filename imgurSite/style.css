@@ -11,6 +11,47 @@ p {
   text-align: center;
   color: white;
 }
+.in{
+  width:100%;
+  color:rgb(19, 13, 13);
+  background:none;
+  padding:8px 35px 8px 10px;
+  border: 1px solid transparent;
+  outline:0 none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  text-shadow: inherit;
+  border-radius:4px;
+}
+::placeholder {
+  color: #fff;
+}
+.search-items{
+  display:flex;
+  flex-direction:column;
+  background:#0e172c;
+  gap: 2%;
+  width:45%;
+  margin-left:2%;
+  list-style: none;
+  position: absolute;
+  visibility: hidden;
+  top:95%;
+  height: 250px;
+  overflow:scroll;
+}
+
+.search-items>li{
+  margin-bottom: 2%;
+  padding:2%;
+  background-color: #4a5672;
+}
+
+li:hover{
+  background-color: #8f9ab4;
+  
+}
 .fav {
   display: flex;
   gap: 10px;
