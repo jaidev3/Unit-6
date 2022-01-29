@@ -23,7 +23,7 @@ function Navbar() {
       </div>
      
   <div class= "search">  
-        <input   type="search" placeholder=" search..."  /> 
+        <input   type="search" placeholder="Images,#tags,@user Oh my!"  /> 
         <img src="../images/icons8-search-32.png" alt" " />
       </div>
        <div class="dropdown">
