@@ -4,7 +4,7 @@ function Navbar() {
     <nav> 
       <a href="#">
         <div>
-        <img src="../images/favicon-32x32.png" alt="home" >
+        <img  width="40px" src="./images/favicon-32x32.png" alt="home" >
         </div>
       </a>
 
@@ -12,7 +12,7 @@ function Navbar() {
         <button class="dropbtn">
         <div class=down> 
        MOST VIRAL
-          <img src="../images/drop-down-arrow.png" alt="" >
+          <img width="25px"  src="./images/drop-down-arrow.png" alt="" >
           </div> 
         </button>
         <div class="dropdown-content">
@@ -25,14 +25,14 @@ function Navbar() {
   <div class= "search">  
         <input  oninput="debounce(main,1000)" class="in" id="in" type="search" placeholder="Images,#tags,@user Oh my!"  /> 
         
-        <img src="../images/icons8-search-32.png" alt" " />
+        <img width="18px"  src="./images/icons8-search-32.png" alt" " />
       </div>
       <div class="search-items" id="search-items"></div>
        <div class="dropdown">
         <button class="dropbtn">
         <div class=down> 
       NEWEST
-          <img src="../images/Hydraulic.png" alt="drop" />
+          <img  width="30px" src="./images/drop-down-arrow.png" alt="drop" />
           </div> 
         </button>
         <div class="dropdown-content">
@@ -44,13 +44,13 @@ function Navbar() {
         </div>
       </div>
       <a href="#">
-        <img src="../images/content-creator.png" alt="content " >
+        <img  class="Image" src="./images/icons8-cinema-film-play-50.png" alt="content " >
       </a>
       <a href="#">
-     <img src="../images/content-creator.png" alt="autoplay" >
+     <img  class="Image" src="./images/content-creator.png" alt="autoplay" >
       </a>
       <a href="#">
-       <img src="../images/content-creator.png" alt=" waterfall" >
+       <img  class="Image" src="./images/icons8-waterfall-60.png" alt=" waterfall" >
       </a>
       <a href="#">
         <h5>Signup</h5>
