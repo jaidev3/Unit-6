@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(55, 63, 60);
+    color: white;
+}
+#container {
+    margin: auto;
+   text-align: center;
+   width: 500px;
+   height: 600px;
+   overflow: auto;
+
+}
+.mystyle{
+    border: 1px solid black;
+    width: 200px;
+    margin:auto;
+    margin-bottom:10px;
+    padding: 15px;
+    background-color:rgb(110, 100, 100)
+}
